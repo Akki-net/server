@@ -5,7 +5,7 @@
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js",
-    "build:ui": "rmdir -r dist ; cd ../client ; npm run build ; copy -r dist ../server ; cd ../server",
+    "build:ui": "rmdir -r dist ; cd ..\\client ; npm run build ; copy -r dist ..\\server ; cd ..\\server",
     "deploy:full": "npm run build:ui ; git add . ; git commit -m uibuild ; git push",
     "test": "echo \"Error: no test specified\" ; exit 1"
   },
