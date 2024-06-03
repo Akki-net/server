@@ -11,17 +11,17 @@ content-type: application/json
 
 {
     "name": "Akash Sharma",
-    "number": "9625703834"
+    "number": 9625703834
 }
 
 ###
 
-PUT http://localhost:3001/api/persons/665da53b9400c454f1720fe0
+PUT http://localhost:3001/api/persons/665dc9e63878dbc7c3440783
 content-type: application/json
 
 {
     "name": "Akash Sharma",
-    "number": 9654203123
+    "number": 96885031888823
 }
 
 ###
