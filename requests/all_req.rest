@@ -1,0 +1,29 @@
+DELETE http://localhost:3001/api/persons/665da4a24b53dbf1e38fbc64
+
+###
+
+GET http://localhost:3001/api/persons
+
+###
+
+POST http://localhost:3001/api/persons
+content-type: application/json
+
+{
+    "name": "Akash Sharma",
+    "number": "9625703834"
+}
+
+###
+
+PUT http://localhost:3001/api/persons/665da53b9400c454f1720fe0
+content-type: application/json
+
+{
+    "name": "Akash Sharma",
+    "number": 9654203123
+}
+
+###
+
+GET http://localhost:3001/api/persons/665da4a24b53dbf1e38fbc64
